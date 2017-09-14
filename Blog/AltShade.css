@@ -1,0 +1,36 @@
+#blog{
+    -webkit-animation: color-change1 3s infinite;
+    
+}
+
+
+@-webkit-keyframes color-change1 {
+    50% { color: greenyellow; }
+    0% { color: white; }
+    100% { color: white; }
+}
+
+#blog:hover{
+    -webkit-animation:none;
+	color:white;
+}
+
+
+
+#portfolio{
+    -webkit-animation: color-change2 3s infinite;
+    
+}
+
+
+
+@-webkit-keyframes color-change2 {
+    0% { color: greenyellow; }
+    50% { color: white; }
+    100% { color: greenyellow; }
+}
+
+#portfolio:hover{
+    -webkit-animation:none;
+	color:white;
+}

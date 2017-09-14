@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+	<script>
+		function myFunction()
+		{
+			var x=document.getElementById("a").value;
+			document.cookie+=("/"+x);
+			//document.write(document.cookie);
+			window.open("F3.html","_self");
+		}
+	</script>
+	
+	<script language="JavaScript"><!--
+javascript:window.history.forward(1);
+//--></script>
+	
+	<div id="container"><h1 style="color:white"><a id="text">  Email :     </br></a>
+	<input id="a" type="text" name="name" color="black" autofocus onkeypress="button.press">
+	</div>
+	
+	<div id="next"><img src="Next.png" height="200px" width="200px" onclick="myFunction()"></div>
+	
+	<div style="float:right;color:grey">sramakoo@gmail.com</div>
+</body>
+</html>

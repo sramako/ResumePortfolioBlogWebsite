@@ -1,0 +1,22 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<p>Name:
+	<a id="1"></a></p>
+	<p>Email:
+	<a id="2"></a></p>
+	<p>Phone:
+	<a id="3"></a></p>
+	<script>
+	var s=document.cookie;
+	var x=s.split("/");
+	document.getElementById("1").innerHTML = x[0];
+	document.getElementById("2").innerHTML = x[1];
+	document.getElementById("3").innerHTML = x[2];
+	</script>
+	
+	
+	
+</body>

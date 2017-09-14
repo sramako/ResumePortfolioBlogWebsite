@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Animated</title>
+		<meta http-equiv="Page-Enter" content="revealTrans(Duration=2.0,Transition=12)">
+	</head>
+	<body style="background-image:url(background5.jpg)">
+	
+		<script language="JavaScript"><!--
+javascript:window.history.forward(1);
+//--></script>
+		
+		<style>
+			#bar
+			{
+				top:50%;
+				position:relative;
+				top:40%;
+				height:30px;
+				width:90%;
+				background-color:grey;
+			}
+			#prog
+			{
+				position:absolute;
+				height:29px;
+				width:30%;
+				background-color:violet;
+			}
+		</style>
+		<h1>GENERATING...</h1>
+		<div id="bar"><div id="prog"></div></div>
+		<script type="text/javascript">
+			var msg = new SpeechSynthesisUtterance('GENERATING YOUR PORTFOLIO');
+			window.speechSynthesis.speak(msg);
+		</script>
+		<script>
+			function move()
+			{
+				x=document.getElementById("prog");
+				var y = setInterval(inc,20);
+				var width=1
+				function inc()
+				{
+					if (width>=100)
+					{
+						clearInterval(y);
+						//window.open("resume301.html");
+						window.open("resume301.html","_self");
+						
+					}
+					else
+					{
+						width++;
+						x.style.width = width + '%';
+					}
+				}
+			}
+			move();
+		</script>
+	</body>
+</html>

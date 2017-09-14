@@ -1,0 +1,178 @@
+<html>
+<head >
+	<title>My Resume</title>
+	<link rel="stylesheet" href="New.css"/>
+	<style>
+table{
+	border-color:transparent
+}
+h2:hover
+{
+        color:skyblue;
+        height:100;
+        background-color:black;
+        text-shadow:0px 30px grey;
+        border:2px dotted lightblue
+}
+
+<!--<>#im:hover
+{
+        height:80%;
+        outline-style:dotted;
+        outline-width:25px;
+        position:absolute;
+        z-index: 1
+        
+}<>-->
+
+</style>
+
+</head>
+
+
+<body>
+
+	<script>
+window.location.hash="no-back-button";
+window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
+window.onhashchange=function(){window.location.hash="no-back-button";}
+</script> 
+
+<div style="background-color:black;opacity:0.8;padding-left:10px;"><br>
+<!-- Save Button BEGIN -->
+<script type="text/javascript">
+var
+pdfbuttonlabel="Save my progress!"
+</script>
+<script src="pdf.js" id="Web2PDF" type="text/javascript"></script>
+<!-- Save xButton END -->
+<br><br>
+</div>
+
+	<p id="top"></p>
+	<top>
+	<p ID=t style="border:2px solid skyblue;padding:10px 10px 10px ;background-color:black;">
+	
+		<b style="color:lightblue">Address: </b>
+		
+		<i>00,Abcdefghjkl,City-000000</i>
+		
+		<b style="color:lightblue">         <br/><br/>Contact: </b>         <i><a id="3"></a></i>
+		
+	        <b style="text-decoration:blink">       <br/><br/>Send mail: <a id="2"></a> </b>    
+	</p>
+	<div style="z-index:1">
+	<p align="center"style="float:left">
+	        <img id=im src="profile2.jpg" border='8' alt="Photo">
+        </p>
+        </div>
+	<h2 ID=Name align="center" style=""><br/><a id="1"></a></h2>
+	
+	<table align="center" border ="2">
+		<tr style="color: white">
+		        <th >Degree</th>
+		        <th>Institution</th>
+		        <th>University/Board</th>
+		        <th>Grade/Percentage</th>
+	        </tr>
+	        <tr>
+		        <td>A</td>
+		        <td>B</td>
+		        <td>C</td>
+		        <td>D</td>
+	        </tr>
+	        <tr>
+		        <td>A</td>
+		        <td>B</td>
+		        <td>C</td>
+		        <td>D</td>
+	        </tr>
+	        <tr>
+		        <td>A</td>
+		        <td>B</td>
+		        <td>C</td>
+		        <td>D</td>
+	        </tr>
+	</table>
+	
+	<div id=row align="right">
+	<ul>
+		        <h3 style="text-decoration:underline">Professional Experience:</h3>
+		
+			<ol>
+			        <li>    <b style="color: white">Company:_______________</b>    </li>
+			        
+		                <ul>
+		                        <li>Date:_______________</li>
+			                        <ul>
+			                                <li>Responsibility:_______________</li>
+				                        <ul>
+				                                <li>Skills:_______________</li>
+				                        </ul>
+			                        </ul>
+		                </ul>
+	
+			        <li>    <b style="color: white">Company:_______________</b>    </li>
+			        
+		                <ul>
+		                        <li>Date:_______________</li>
+			                        <ul>
+			                                <li>Responsibility:_______________</li>
+				                        <ul>
+				                                <li>Skills:_______________</li>
+				                        </ul>
+			                        </ul>
+		                </ul>
+			
+			</ol>
+	</ul>
+	</div>
+	
+	<table align=center >
+	        <tr>
+		        <td colspan="2"><b>Professional Experience:</b></td>
+		        <td colspan="2"align="center">A</td>
+	        </tr>
+	        <tr>
+		        <td colspan="2"><b>Company:</b></td>
+		        <td colspan="2"align="center">A</td>
+	        </tr>
+	        <tr>
+		        <td colspan="2"><b>Date</b></td>
+		        <td colspan="2"><b>Responsibilities</b></td>
+	        </tr>
+	        <tr  style="color: white">
+		        <td colspan="2">dd/mm/yy</td>
+		        <td colspan="2">R</td>
+	        </tr>
+	        <tr  style="color: grey">
+		        <td colspan="2">dd/mm/yy</td>
+		        <td colspan="2">R</td>
+	        </tr>
+	        <tr  style="color: white">
+		        <td colspan="2">dd/mm/yy</td>
+		        <td colspan="2">R</td>
+	        </tr>
+	        <tr>
+		        <td colspan="1" rowspan="2"><b>Skills:</b></td>
+		        <td colspan="3" rowspan="2" align="center">A,B,C</td>
+	        </tr>
+	</table>
+	
+	<br>
+	<img  src="logo.gif" border='2' height=120px alt="Photo"><new style="color:white;font-size:50px">Works at Apple Inc.</new>
+	<p id=foot  style="color:white">
+	<a href="hobby301.html" style="float:right;color:white">Next Page</a>
+	
+	<a href="#top" align=center >^^^Go to Top</a>
+	</p>
+	<p align="center" color="white">HOME</p>
+	<script>
+	var s=document.cookie;
+	var x=s.split("/");
+	document.getElementById("1").innerHTML = x[0];
+	document.getElementById("2").innerHTML = x[1];
+	document.getElementById("3").innerHTML = x[2];
+	</script>
+</body>
+</html>

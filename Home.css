@@ -1,0 +1,36 @@
+.img-circle1 {
+	border-radius: 50%;
+}
+.img-circle2 {
+	border-radius: 50%;
+}
+.r
+{
+	position:relative;
+	float:right;
+}
+.l
+{
+	position:relative;
+	float:left;
+	
+}
+.l:hover
+{
+	opacity:0.7;
+}
+.r:hover
+{
+	opacity:0.7;
+}
+#text
+{
+	position:absolute;
+	top:280px;
+	left:110px;
+	color:transparent;
+}
+#text:hover
+{
+	color:white;
+}

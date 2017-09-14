@@ -1,0 +1,49 @@
+h2{
+	font-size:40px;
+	text-align:center;
+	font-stretch:30px;
+	color:white;
+}
+p{
+	font-size:2.2em;
+	color:blue;
+	text-align:center;
+}
+.background{
+	background-image:url("suit-up.jpg");
+	background-attachment:fixed;
+}
+.page{
+	position:relative;
+	width:480px;
+	margin:0px auto;
+	padding:10px;
+	background-color:rgba(256,200,200,0.9);
+}
+.page1{
+	position:relative;
+	margin:0px auto;
+	padding:10px;
+	background-color:rgba(200,250,250,0.5);
+}
+.page2{
+	position:relative;
+	margin:0px auto;
+	padding:10px;
+	background-color:rgba(200,250,200,0.5);
+}
+.band{
+	width:50%;
+	padding-bottom:500px;
+	margin-bottom:-1000px;
+}
+.left{
+	background-image:url("c-4.jpeg");
+	background-repeat:no-repeat;
+	float:left;
+}
+.right{
+	background-image:url("p-1.jpg");
+	background-repeat:no-repeat;
+	float:right;  
+}

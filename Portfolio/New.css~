@@ -1,0 +1,63 @@
+body{
+		background:transparent url('background3.jpg');
+		background-attachment:fixed;
+		opacity:50
+	}
+b{
+	color:white
+}
+i{
+	color:white
+}
+td{
+	color:skyblue;
+	
+}
+td:hover{
+	color:grey;
+	
+}
+th:hover{
+	color:green;
+	
+}
+table{
+	background-color:black;
+	
+}
+table:hover{
+	background-color:#004d4d;
+	
+}
+custom:hover
+{
+        color:red
+}
+#t:hover
+{
+        opacity:0.7;
+        outline-style:dotted;
+        outline-width:25px
+}
+#row
+{
+        background-color:black;
+        color:white;
+}
+#row:hover
+{
+        background-color:black;
+        color:white;
+        opacity:0.7
+}
+#foot
+{
+        background-color:teal;
+        opacity:0.7;
+        border:25px solid black
+}
+#foot:hover
+{
+        background-color:black;
+        opacity:0.4
+}

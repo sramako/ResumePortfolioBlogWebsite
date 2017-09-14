@@ -1,0 +1,15 @@
+p{
+    -webkit-animation: color-change 3s infinite;
+    
+}
+
+@-webkit-keyframes color-change {
+    0% { color: purple; }
+    50% { color: white; }
+    100% { color: violet; }
+}
+
+p:hover{
+	-webkit-animation:none;
+	color:white;
+}
